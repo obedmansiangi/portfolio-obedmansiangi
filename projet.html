@@ -4,38 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio, page projet</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- ceci est la partie navigation de ma page projet-->
     <header>
-        <nav>
-            <p><strong><a href="index.html">OBED MANSIANGI</a></strong></p>
-            <ul>
-                <li> <a href="cv.html">CV</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="projet.html">Projet</a></li>
-            </ul>
+        <nav class="nav-bar">
+            <div class="logo">
+                <p><strong><a href="index.html">OBED MANSIANGI</a></strong></p>
+            </div>
+            <div class="link">
+                <a href="cv.html">CV</a>
+                <a href="contact.html">Contact</a>
+                <a href="projet.html">Projet</a>
+            </div>  
         </nav>
     </header>
     <!-- quelques projets réaliés durant ma carrière -->
-    <section>
+    <section class="projet">
         <h3>Projets</h3>
-        <h4>Proxyma</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptate nesciunt at, nostrum tempore enim possimus cupiditate labore architecto repellat officia nulla perferendis est aliquid dicta accusamus, minus eveniet aut?
-        Sunt itaque, veritatis ea atque tempore qui obcaecati magni est debitis dolores voluptates facere laborum sapiente nemo repudiandae accusantium eum autem architecto minima libero, totam natus, eos perferendis? Et, nemo!</p>
-        <P>
-            <img src="./image projet/Proxyma.jpg" alt="image du projet proxyma" width="800px" height="400px">
-        </P>
-        <h4>Fashion_Sale</h4>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores ab beatae ea illo maxime? Repudiandae sapiente earum reiciendis, unde debitis voluptatem hic aliquam odit expedita, temporibus eaque maxime corrupti nesciunt?
-        Est assumenda omnis earum recusandae vel eveniet expedita. Recusandae fugiat dolor pariatur eum iure! Dolorum aliquid accusamus temporibus possimus ad dicta, sunt, sequi optio rem corporis, assumenda laboriosam ab aperiam.</p>
-        <p>
-            <img src="./image projet/Fashion_sale.jpg" alt="image du projet fashion_sale" width="800px" height="400px">
-        </p>
+        <div class="proxyma">
+            <div class="proxyma_description">
+                <h4>Proxyma</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, mollitia? Ducimus maiores totam, sed consequatur, ex reiciendis ipsum neque optio facere doloremque perferendis quasi ad tempore libero inventore alias! Nostrum.
+                Porro a voluptate expedita fugiat. Non aperiam earum quo, corporis ipsa nemo, porro maiores eaque delectus assumenda itaque odio praesentium dolor mollitia, consequuntur facere nisi nesciunt distinctio odit! Dignissimos, quod.</p>
+            </div>
+            <div class="proxyma_img">
+                <img src="./image projet/Proxyma.jpg" alt="image projet proxyma">
+            </div>
+        </div>
+        <div class="fashion">
+            <div class="fashion_sale">
+                <h4>Fashion Sale</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat soluta quae sequi? Accusamus perspiciatis provident molestiae dolor, autem unde ad odio voluptatibus laudantium harum accusantium totam exercitationem in debitis vero!</p>
+            </div>
+            <div class="fashion-img">
+                <img src="./image projet/Fashion_sale.jpg" alt="image projet fashion sale" width="500px" height="380px">
+            </div>
+        </div>
+        <div class="sharing">
+            <div class="sharing_car">
+                <h4>Sharing Car</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab optio magni minima minus quos impedit, exercitationem repellendus dicta ex, sed vitae officiis labore voluptates totam culpa incidunt quo fugiat dignissimos?</p>
+            </div>
+            <div class="sharing-img">
+                <img src="./image projet/Sharing car.jpg" alt="photo projet sharing car" width="500px" height="380px">
+            </div>
+        </div>
     </section>
-    <hr>
      <!-- mes coordonnées -->
-    <section>
+    <section class="my-footer">
         <div>
             <p><strong>Téléphone</strong></p>
             <p><a href="Tel : +243846961715">+243 846961715</a></p>

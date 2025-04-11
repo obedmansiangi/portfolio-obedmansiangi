@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio, page CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
      <!-- ceci est la partie navigation de ma page CV -->
     <header>
-        <nav>
-            <p><strong><a href="index.html">OBED MANSIANGI</a></strong></p>
-            <ul>
-                <li> <a href="cv.html">CV</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="projet.html">Projet</a></li>
-            </ul>
+        <nav class="nav-bar">
+            <div class="logo"> 
+                <p><strong><a href="index.html">OBED MANSIANGI</a></strong></p>
+            </div>
+            <div class="link">
+                <a href="cv.html">CV</a>
+                <a href="contact.html">Contact</a>
+                <a href="projet.html">Projet</a>
+            </div>                    
         </nav>
     </header>
     <!-- petite liste de projets auxquels j'ai participé durant ma carrière -->
-    <section>
-        <div>
+    <section class="realisation">
+        <div class="premium">
             <h3>Curriculum Vitae</h3>
             <h3>Expérience  Professionnelle</h3>
             <h4>Développeur back-end PHP et NodeJS</h4>
-            <p>Février 2018-Présent</p>
+            <p class="annee">Février 2018-Présent</p>
             <p>Sopra Steria - Paris</p>
             <p>Au sein d'une équipe constitué d'un chef de projet web, de développeur, de Data Sciientist et d'architectes DevOps, j'ai réalisé de nombreuses missions sur des projets clients dans le secteur de la défense :</p>
             <ul>
@@ -33,7 +36,7 @@
                <li>Utilisation de services d'Amazon Web Services (AWS) sur NodeJS, pour déléguer le traitement de certaines taches.</li>
             </ul>
             <h4>Développeur back-end Python</h4>
-            <p>Juin 2018 - Janvier 2021</p>
+            <p class="annee">Juin 2018 - Janvier 2021</p>
             <p>Thales - Grenoble</p>
             <p>Au sein d'une équipe de 5 développeurs et icloud architects, j'ai développé certaines évolution ainsi que des correctifs sur un projet interne développé en Python, destiné à la maintenance des appareils aéronefs :</p>
             <ul>
@@ -42,7 +45,7 @@
                <li>Réalisation à temps et validation par les pairs de 96% des taches qui m'ont été affectées durant les sprints</li>
             </ul>
             <h4>Développeur front-end ReactJS</h4>
-            <p>Janvier 2018 - Mars 2018</p>
+            <p class="annee">Janvier 2018 - Mars 2018</p>
             <p>Shifted - Paris</p>
             <p>Encadré par des ingénieurs et intégreurs front-end ainsi que des développeurs JavaScript, j'ai occupé plusieurs missions d'ameliorations sur l'interface utilisateur</p>
             <ul>
@@ -55,7 +58,6 @@
     <hr>
     <!-- diplome obtenu durant mon parcours -->
     <section>
-        <div>
             <h3>Expérience  Professionnelle</h3>
             <h4>Diplome d'ingénieur informatique</h4>
             <p>2016 - 2019</p>
@@ -65,8 +67,7 @@
             <ul>
                 <li>Développement de micro-services en NodeJS dans le secteur bancaire</li>
                 <li>Refonte du "Data Model" d'une application de suivi de livraison chez un spécialiste de la logistique e-commerce</li>
-            </ul>
-        </div>   
+            </ul>   
     </section>
     <hr>
     <!-- quelques compétence développées jusqu'à présent -->
@@ -83,19 +84,16 @@
     </section>
     <hr>
     <!-- les langues dont j'ai la maitrise -->
-    <section>
-        <div>
+    <section class="langue">
             <h3>Langues</h3>
             <ul>
                <li><strong>Français</strong> Natif</li>
                <li><strong>Anglais</strong> Niveau C1, Vocabulaire technique, Stage de 6 mois au Royaume-Uni</li>
                <li><strong>Espagnol</strong> Capacité à entretenir une discussion informelle à l'oral, Equvalent B1</li>
-            </ul>
-        </div>   
+            </ul> 
     </section>
-    <hr>
      <!-- mes coordonnées -->
-    <section>
+    <section class="my-footer">
         <div>
             <p><strong>Téléphone</strong></p>
             <p><a href="Tel : +243846961715">+243 846961715</a></p>

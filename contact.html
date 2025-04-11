@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio, page contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- ceci est la partie navigation de ma page d'contact-->
     <header>
-        <nav>
-            <p><strong><a href="index.html">OBED MANSIANGI</a></strong></p>
-            <ul>
-                <li> <a href="cv.html">CV</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="projet.html">Projet</a></li>
-            </ul>
+        <nav class="nav-bar">
+            <div class="logo">
+                <p><strong><a href="index.html">OBED MANSIANGI</a></strong></p>
+            </div>
+            <div  class="link">
+                <a href="cv.html">CV</a>
+                <a href="contact.html">Contact</a>
+                <a href="projet.html">Projet</a>
+            </div>      
         </nav>
     </header>
-    <section>
-        <div>
+    <section class="contact">
+        <div class="coordonnees">
             <h3>Contact</h3>
             <p><strong>Téléphone</strong></p>
             <p><a href="Tel : +243846961715">+243 846961715</a></p>
@@ -26,25 +29,36 @@
             <p><a href="mailto : obedmansiangi70@gmail.com">obeddmansiangi70@gmail.com</a></p>
         </div>
     <!-- petit formulaire à remplir pour les besoins des clients -->
-        <div>
-            <form action="">
-                <input type="text">
-                <label for="nom">Nom</label>
-                <input type="text">
-                <label for="Prénom">Prénom</label><br>
-                <input type="email">
-                <label for="email">email</label>
-                <input type="text">
-                <label for="sujet">Sujet</label><br>
-                <input type="text">
-                <label for="message">Message</label>
-                <button>Envoyer</button>
+        <div class="formulaire">
+            <form action="contact.html">
+                <div class="name">
+                    <label for="firstnameinput">First Name</label>
+                    <input type="text" name="First Name">     
+                </div>
+                <div class="name">
+                    <label for="lastnameinput">Last Name</label>
+                    <input type="text" name="Last Name">
+                </div>
+                <div class="name">
+                    <label for="emailinput">Email</label>
+                    <input type="email" name="Email">   
+                </div>
+                <div class="name">
+                    <label for="subjectinput">Subject</label>
+                    <input type="text" name="Subject">
+                </div>
+                <div class="name">
+                    <label for="message">Message</label>
+                    <textarea name="meessage" id="message" cols="25" rows="10"></textarea>
+                </div>
+                <div class="name">
+                     <input class="button" type="submit" value="Envoyer"> 
+                </div>    
             </form>
         </div>
     </section>
-    <hr>
      <!-- mes coordonnées -->
-    <section>
+    <section class="my-footer">
         <div>
             <p><strong>Téléphone</strong></p>
             <p><a href="Tel : +243846961715">+243 846961715</a></p>

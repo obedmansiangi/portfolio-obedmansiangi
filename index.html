@@ -4,38 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio, Page d'aceuil</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- ceci est la partie navigation de ma page d'aceuil -->
-    <header>
-        <nav>
-            <p><strong><a href="index.html">OBED MANSIANGI</a></strong></p>
-            <ul>
-                <li> <a href="cv.html">CV</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="projet.html">Projet</a></li>
-            </ul>
+        <nav class="nav-bar">
+            <div class="logo">
+                <p><strong><a href="index.html">obed mansiangi</a></strong></p>
+            </div>
+            <div class="link">
+                <a href="cv.html">CV</a>
+                <a href="contact.html">Contact</a>
+                <a href="projet.html">Projet</a>
+            </div>    
         </nav>
-    </header>
     <!-- une petite présentation de qui je suis et ce que je fais -->
-    <section>
-        <div>
-            <img src="./mon profil.jpg" alt="mon profil" height="400px">
+    <section class="container">
+        <div class="my-profil">
+            <img src="./mon profil.jpg" alt="mon profil" height="300px" width="300px">
         </div>
-        <div>
+        <div class="about-me">
             <h1>Hello</h1>
             <p><strong>A propos de moi</strong></p>
-            <p>Je  <strong>Obed Mansiangi</strong>, une développeur web passionée doté d'une créativité débordante et d'un talent pour concrétiser des idées en experiences numérique interactives. </p>
-            <ul>
-                <li><button><a href="cv.html">CV</a></button></li>
-                <li><button><a href="contact.html">Contact</a></button></li>
-                <li><button><a href="projet.html">Projet</a></button></li>
-            </ul>
+            <p>Je suis <strong>Obed Mansiangi</strong>, un développeur web passionée doté d'une créativité débordante et d'un talent pour concrétiser des idées en experiences numérique interactives. </p>
+            <button class="my-cv"><a href="cv.html">CV</a></button>
+            <button class="my-contact"><a href="contact.html">Contact</a></button>
+            <button class="my-projet"><a href="projet.html">Projet</a></button>
         </div>
     </section>
-    <hr>
     <!-- mes coordonnées -->
-    <section>
+    <section class="my-footer">
         <div>
             <p><strong>Téléphone</strong></p>
             <p><a href="Tel : +243 846961715">+243 846961715</a></p>
