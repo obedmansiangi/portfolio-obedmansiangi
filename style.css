@@ -205,9 +205,52 @@
  .realisation{
     padding-left: 100px;
     padding-right: 100px;
+    line-height: 25px;
     h3{
         padding-top: 20px;
         padding-bottom: 40px;
+    }
+    p{
+        padding-top: 10px;
+        margin-top: 5px;
+    }
+    .annee{
+        text-align: right;
+    }
+ }
+ .langue {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border-top: 1px black solid;
+    margin: 20px 100px 20px 100px;
+    ul li{
+        padding-top: 10px;
+    }
+    h3{
+        padding-bottom: 30px;
+    }
+ }.competence{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border-top: 1px black solid;
+    margin: 20px 100px 20px 100px;
+    ul li{
+        padding-top: 10px;
+    }
+    h3{
+        padding-bottom: 30px;
+    }
+ }
+ .experience{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border-top: 1px black solid;
+    margin: 20px 100px 20px 100px;
+    ul li{
+        padding-top: 10px;
+    }
+    h3{
+        padding-bottom: 30px;
     }
     p{
         padding-top: 10px;
@@ -216,17 +259,6 @@
     }
     .annee{
         text-align: right;
-    }
- }
- .langue {
-    padding-top: 30px;
-    padding-left: 100px;
-    padding-bottom: 50px;
-    ul li{
-        padding-top: 10px;
-    }
-    h3{
-        padding-bottom: 30px;
     }
 
  }
