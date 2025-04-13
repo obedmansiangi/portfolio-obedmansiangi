@@ -217,6 +217,10 @@
     .annee{
         text-align: right;
     }
+    .duree_lieu{
+        display: flex;
+        justify-content: space-between;
+    }
  }
  .langue {
     padding-top: 40px;
@@ -255,12 +259,13 @@
     p{
         padding-top: 10px;
         line-height: 20px;
-        margin-top: 5px;
     }
     .annee{
         text-align: right;
     }
-
+ }
+ @media screen {
+    
  }
  
   
