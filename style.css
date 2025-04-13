@@ -99,6 +99,7 @@
     }
     .proxyma_img img{
         border: solid 10px black;
+        
     }
 }
 .fashion{
@@ -127,33 +128,6 @@
         border: solid 10px black;
     }
 }
-.sharing{
-    display: flex;
-    padding-top: 50px;
-    padding-left: 170px;
-    padding-bottom: 30px;
-    div{
-        height: 300px;
-        width: 50%;
-    }
-    div img{
-        width: 400px;
-        height: 280px;
-    }
-    .sharing_car{
-        padding-right: 250px;
-    }
-    .sharing_car p{
-        padding-top: 20px;
-        line-height: 20px;
-    }
-    .sharing-img{
-        padding-left: 100px;   
-    }
-    .sharing-img img{
-        border: solid 10px black;
-    }
-}
 .projet h3{
     padding-left: 170px;
     padding-top: 30px;
@@ -174,7 +148,6 @@
         }
     }
     .formulaire{
-        padding-left: 20px;
         display: flex;
         padding-left: 200px;   
     }
@@ -292,6 +265,59 @@
         padding-right: 30px;
         text-align: center;
     }
+    .contact{
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+       
+    }
+    .contact .coordonnees{
+        width: 100%;
+       
+    }
+    .contact .formulaire{
+        padding-left: 30px;
+        padding-right: 30px;  
+    }
+    .proxyma{
+        flex-direction: column-reverse;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .proxyma .proxyma_img{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .proxyma .proxyma_img img{
+        width: 300px;
+        height: 200px;       
+    }
+    .proxyma .proxyma_description{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+   .fashion{
+        flex-direction: column-reverse;
+        padding-left: 30px;
+        padding-right: 30px;
+   }
+   .fashion .fashion-img{
+        padding-left: 5px;
+        padding-right: 5px;
+   }
+   .fashion .fashion-img img{
+    width: 300px;
+    height: 200px;
+   }
+   .fashion .fashion_sale{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+   }
+
     
  }
     
