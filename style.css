@@ -237,7 +237,7 @@
         text-align: right;
     }
  }
- @media screen and (max-width:390px) {
+ @media screen and (max-width:392px) {
     .nav-bar{
         flex-direction: column;
         padding-left: 30px;
@@ -337,8 +337,58 @@
    }
  }
  @media screen and (max-width:835px) {
-    
-    
+    .nav-bar{
+        padding-right: 0;
+    }
+    .nav-bar .link{
+        padding-right: 0px;
+    }
+    .container{
+        padding-left:50px;
+    }
+    .container .about-me{
+        padding-right:50px ;
+    }
+    .my-footer{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+    .contact{
+        padding-left: 80px;
+    }
+    .contact .formulaire{
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    .proxyma{
+        padding-left: 50px;
+    }
+    .proxyma .proxyma_description{
+        padding-right: 80px;
+    }
+    .proxyma .proxyma_img{
+        padding-left: 0;
+       
+    }
+    .proxyma .proxyma_img img{
+        height: 280px;
+        width: 350px;
+    }
+    .fashion{
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+    .fashion .fashion_sale{
+        padding-right: 80px; 
+    }
+    .fashion .fashion-img{
+        padding-left: 0;  
+    }
+    .fashion .fashion-img img{
+        width: 350px;
+    } 
  }
 
     
