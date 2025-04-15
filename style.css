@@ -97,10 +97,6 @@
     .proxyma_img{
         padding-left: 100px;   
     }
-    .proxyma_img img{
-        border: solid 10px black;
-        
-    }
 }
 .fashion{
     display: flex;
@@ -123,9 +119,6 @@
     }
     .fashion-img{
         padding-left: 100px;   
-    }
-    .fashion-img img{
-        border: solid 10px black;
     }
 }
 .projet h3{
@@ -237,7 +230,7 @@
         text-align: right;
     }
  }
- @media screen and (max-width:392px) {
+ @media screen and (max-width:393px) {
     .nav-bar{
         flex-direction: column;
         padding-left: 30px;
@@ -245,17 +238,21 @@
         text-align: center;
     }
     .nav-bar .link{
+        padding-left: 30px;
+        padding-right: 30px;
         padding-top: 40px;
     }
     .container{
         flex-direction: column;
+       
+    }
+    .container .about-me{
         padding-left: 5px;
         padding-right: 5px;
         text-align: center;
     }
-    .container .about-me{
-        padding-left: 30px;
-        padding-right: 30px;
+    .container .about-me button{
+        width: 80px;
     }
     .my-footer{
         flex-direction: column;
@@ -267,55 +264,53 @@
     }
     .contact{
         flex-direction: column;
-        padding-top: 80px;
-        padding-left: 30px;
-        padding-right: 30px;
-        text-align: center;
-       
-    }
-    .contact .coordonnees{
-        width: 100%;
-       
+
     }
     .contact .formulaire{
-        padding-left: 30px;
-        padding-right: 30px;  
+        width: 100%;
+        padding-top: 0;
+    }
+    .contact .formulaire .name{
+        width: 100%;
     }
     .proxyma{
         flex-direction: column-reverse;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .proxyma .proxyma_img{
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    .proxyma .proxyma_img img{
-        width: 300px;
-        height: 200px;       
+        padding-left: 0; 
+        padding-right: 0;  
     }
     .proxyma .proxyma_description{
-        padding-left: 10px;
-        padding-right: 10px;
         width: 100%;
     }
-   .fashion{
+    .proxyma .proxyma_img{
+        width: 100%;
+       
+    }
+    .proxyma .proxyma_img img{
+        height: 250px;
+    }
+    .proxyma div img{
+        padding-right: 45px;
+    }
+    .fashion{
         flex-direction: column-reverse;
-        padding-left: 30px;
-        padding-right: 30px;
-   }
-   .fashion .fashion-img{
-        padding-left: 5px;
-        padding-right: 5px;
-   }
-   .fashion .fashion-img img{
-    width: 300px;
-    height: 200px;
-   }
-   .fashion .fashion_sale{
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 100%;
+        padding-left: 0;
+    }
+    .fashion .fashion_sale{
+        width: 100%;
+        padding-top: 50px;
+    }
+    .fashion .fashion-img{
+        padding-top: 50px;
+    }
+    .fashion .fashion-img img{
+        height: 250px;  
+    }
+    .fashion div img{
+        padding-right: 45px;
+    }
+    .projet h3{
+        padding-left: 50px;
+    }
    }
    .realisation{
     width: 100%;
@@ -335,7 +330,6 @@
     margin-left: 20px;
     margin-right: 20px;
    }
- }
  @media screen and (max-width:835px) {
     .nav-bar{
         padding-right: 0;
