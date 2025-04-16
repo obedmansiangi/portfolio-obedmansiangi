@@ -168,9 +168,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
  }
- .realisation{
-    padding-left: 100px;
+ .accomplissement{
     padding-right: 100px;
+    padding-left: 100px;
     line-height: 25px;
     h3{
         padding-top: 20px;
@@ -180,15 +180,12 @@
         padding-top: 10px;
         margin-top: 5px;
     }
-    .annee{
-        text-align: right;
-    }
     .duree_lieu{
         display: flex;
         justify-content: space-between;
     }
  }
- .langue {
+ .langue_p{
     padding-top: 40px;
     padding-bottom: 50px;
     border-top: 1px black solid;
@@ -199,7 +196,7 @@
     h3{
         padding-bottom: 30px;
     }
- }.competence{
+ }.competence_acquise{
     padding-top: 40px;
     padding-bottom: 50px;
     border-top: 1px black solid;
@@ -211,7 +208,7 @@
         padding-bottom: 30px;
     }
  }
- .experience{
+ .experience_obtenue{
     padding-top: 40px;
     padding-bottom: 50px;
     border-top: 1px black solid;
@@ -226,8 +223,9 @@
         padding-top: 10px;
         line-height: 20px;
     }
-    .annee{
-        text-align: right;
+    .duree{
+        display: flex;
+        justify-content: space-between;
     }
  }
  @media screen and (max-width:393px) {
