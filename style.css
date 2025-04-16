@@ -26,6 +26,8 @@
     padding-left: 250px;
     padding-bottom: 100px;
     .my-profil img{
+        height: 300px;
+        width: 300px;
         border-radius: 50%;
     }
     .about-me{
