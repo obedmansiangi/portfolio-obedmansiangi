@@ -158,8 +158,7 @@
             height: 50px;
             margin-top: 70px;
             width: 100px;
-            background-color: orange;
-            
+            background-color: orange;    
         }    
     }
 }
@@ -238,8 +237,8 @@
         text-align: center;
     }
     .nav-bar .link{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
         padding-top: 40px;
     }
     .container{
@@ -311,24 +310,24 @@
     .projet h3{
         padding-left: 50px;
     }
-   }
-   .accomplissement{
-    width: 100%;
-    padding-top: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-   }
-   .experience_obtenue{
-    margin-left: 20px;
-    margin-right: 20px;
-   }
-   .competence_acquise{
-    margin-left: 20px;
-    margin-right: 20px;
-   }
-   .langue_p{
-    margin-left: 20px;
-    margin-right: 20px;
+    .accomplissement{
+        width: 100%;
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+       }
+       .experience_obtenue{
+        margin-left: 20px;
+        margin-right: 20px;
+       }
+       .competence_acquise{
+        margin-left: 20px;
+        margin-right: 20px;
+       }
+       .langue_p{
+        margin-left: 20px;
+        margin-right: 20px;
+       }
    }
  @media screen and (max-width:835px) {
     .nav-bar{
